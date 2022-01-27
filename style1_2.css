@@ -1,0 +1,41 @@
+body{
+  background-color: #dabcbc;
+  /*background-image: url(image/night-sky.jpg);*/
+}
+
+
+h1{
+  font-size: 20px;
+  text-align: right;
+  color: #69bf59;
+}
+
+p{
+  font-size: 30px;
+  text-align: right;
+  color: #000000;
+}
+
+.main-container{
+  background-color: aliceblue;
+  opacity: 90%;
+  color: #080707;
+  padding: 350px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+#main-nav{
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  background-color:aliceblue;
+  width:25%;
+  padding: 10px;
+}
+
+.art{
+  display: none;
+
+}

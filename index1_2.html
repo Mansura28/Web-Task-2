@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CV (with navigation) </title>
+<meta name="author" content="Mansura">
+<meta http-equiv="content-type" content="text/html; charset = utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style1_2.css">
+</head>
+<body>
+
+<div class="main-container">
+
+  <nav id="main-nav">
+
+    <a href="#article-0" onclick="showArticle('article-0')"> Image |</a> <br> <br>
+    <a href="#article-1" onclick="showArticle('article-1')"> Name |</a> <br> <br>
+    <a href="#article-2" onclick="showArticle('article-2')"> Registration number |</a> <br> <br>
+    <a href="#article-3" onclick="showArticle('article-3')"> Profession |</a> <br> <br>
+    <a href="#article-4" onclick="showArticle('article-4')"> Date of Birth |</a> <br> <br>
+    <a href="#article-5" onclick="showArticle('article-5')"> Place of Birth |</a> <br> <br>
+    <a href="#article-6" onclick="showArticle('article-6')"> Father |</a> <br> <br>
+    <a href="#article-7" onclick="showArticle('article-7')"> Mother |</a> <br> <br>
+    <a href="#article-8" onclick="showArticle('article-8')"> Present Address |</a> <br> <br>
+    <a href="#article-9" onclick="showArticle('article-9')"> Religion |</a> <br> <br>
+    <a href="#article-10" onclick="showArticle('article-10')"> Gender |</a> <br> <br>
+    <a href="#article-11" onclick="showArticle('article-11')"> Language / Dialect Spoken |</a> <br> <br>
+    <a href="#article-12" onclick="showArticle('article-12')"> Skills and Interest |</a> <br> <br>
+    <a href="#article-13" onclick="showArticle('article-13')"> Education Background |</a> <br> <br>
+
+  </nav>
+
+  <article class="art" id="article-0">
+    <header>
+      <h1>Image</h1>
+    </header>
+    <p><img src="imageT2/MM-img.jpg" alt="Image"  height="100"> </p>
+  </article>
+
+  <article class="art" id="article-1">
+    <header>
+      <h1>Name</h1>
+    </header>
+    <p> Mansura Mokbul </p>
+  </article>
+
+  <article class="art" id="article-2">
+    <header>
+      <h1>Registration number</h1>
+    </header>
+    <p> 200103020028 </p>
+      </article>
+
+  <article class="art" id="article-3">
+    <header>
+      <h1>Profession</h1>
+    </header>
+    <p> Student (3rd year of B.SC(Engg.) in <br> CSE department <br> From North East University Bangladesh)</p>
+  </article>
+
+  <article class="art" id="article-4">
+    <header>
+      <h1>Date of Birth</h1>
+    </header>
+    <p> January 30, 2001 </p>
+  </article>
+
+  <article class="art" id="article-5">
+    <header>
+      <h1>Place of Birth </h1>
+    </header>
+    <p> South Bhadeswar, Golapganj, Sylhet </p>
+      </article>
+
+  <article class="art" id="article-6">
+    <header>
+      <h1>Father</h1>
+    </header>
+    <p> Mokbul Ahmed</p>
+  </article>
+
+  <article class="art" id="article-7">
+    <header>
+      <h1>Mother</h1>
+    </header>
+    <p> Sheepara Ahmed</p>
+  </article>
+
+  <article class="art" id="article-8">
+    <header>
+      <h1>Present Address </h1>
+    </header>
+    <p> 64/2 Mashudighir par, Taltala, Sylhet </p>
+      </article>
+
+  <article class="art" id="article-9">
+    <header>
+      <h1>Religion</h1>
+    </header>
+    <p> Islam</p>
+  </article>
+
+  <article class="art" id="article-10">
+    <header>
+      <h1>Gender</h1>
+    </header>
+    <p> Female </p>
+  </article>
+
+  <article class="art" id="article-11">
+    <header>
+      <h1>Language / Dialect Spoken</h1>
+    </header>
+    <p>Bengali, English</p>
+      </article>
+
+  <article class="art" id="article-12">
+    <header>
+      <h1>Skills and Interest</h1>
+    </header>
+    <p> * Computer literate (Programming) <br> <br>
+* Loves reading informative books, quotes, watching movies and listening Nasheed <br> <br>
+* Good at communication, believe in respect, peace and always try to learn something new <br> <br> </p>
+  </article>
+
+  <article class="art" id="article-13">
+    <header>
+      <h1>Education Background</h1>
+    </header>
+    <p> * Complete HSC(Higher Secondary Certificate) in 2019 <br> <br>
+* Complete SSC(Secondary School Certificate) in 2017 <br> <br>
+* Currently 3rd year of B.SC(Engg.) in CSE department <br> <br> </p>
+  </article>
+
+</div>
+
+<script type="text/javascript">
+
+  var lastArticle=0;
+  function showArticle(articleNo)
+  {
+    if (lastArticle) {
+      document.getElementById(lastArticle).style="display:none";
+    }
+    document.getElementById(articleNo).style="display:block";
+    lastArticle=articleNo;
+  }
+
+</script>
+    <p style="font-size:12px; text-align:center;">© Mansura Mokbul </p>
+</body>
+</html>
